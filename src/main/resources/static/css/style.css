@@ -1,43 +1,41 @@
 body {
-  margin: 0;
+    margin: 0;
 }
 
-h2 {
-  color: red;
-}
-
-header {
-  background-color: black;
-  color: white;
-  padding: 5px;
-  display: flex;
-  justify-content: space-between;
+header{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .title {
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin-left: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
 .main-content {
-  background-color: rgb(154, 160, 158);
-  width: 75%;
-  margin: auto;
-  margin-top: 20px;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    background-color: rgb(230, 230, 230);
+    margin: auto;
+    margin-top: 30px;
+    width: 75%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.item {
-  background-color: blueviolet;
-  width: 250px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px;
+
+
+.item{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .item-name{
@@ -45,16 +43,15 @@ header {
     color: white;
     text-align: center;
     padding: 3px;
-    font-size:larger;
+    font-size: larger;
     font-weight: bold;
     width: calc(100% - 6px);
     margin-top: 0;
 }
 
-.item img {
-    width: 70%;
-    height: auto;
-    border: 1px solid black;
+.item img{
+    width: 150px;
+    height: 200px;
 }
 
 .add-btn{
@@ -68,9 +65,8 @@ header {
     margin-bottom: 10px;
 }
 
-.add-btn:hover{
-    background-color: white;
-    color: black;
+.add-btn:hover {
+    background-color: rgb(88, 88, 88);
 }
 
 .cart-ico{
@@ -80,4 +76,56 @@ header {
 
 .cart-ico:hover{
     color: brown;
+}
+
+table, tr {
+    width: 80%;
+    border: 1px solid black;
+}
+
+th{
+    text-align: left;
+    border: 1px solid black;;
+}
+
+td img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.mbtn{
+    background-color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+td p{
+    margin: 3px;
+    padding: 5px
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label{
+    width: 100%;
+}
+
+.infoMsg{
+    width: 100%;
+    color: green;
+    font-size: 1.3rem;
+    text-align: center;
 }
